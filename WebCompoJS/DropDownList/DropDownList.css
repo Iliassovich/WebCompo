@@ -1,0 +1,109 @@
+.DefaultDropDownList{
+    float: left;
+    max-width: 128px;
+    min-width: 128px;
+    width: auto;
+    height: auto;
+    display: block;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 14px;
+    color: #34495e;
+}
+.DefaultValue{
+    float: inherit;
+    width: inherit;
+    height: 32px;
+    max-width: 128px;
+    min-width: 128px;
+    text-align: center;
+    text-align: -webkit-center;
+    text-align: -moz-center;
+    line-height: 32px;
+    box-shadow: 1px 2px 2px 0px #2c3e50;
+    -moz-box-shadow: 1px 2px 2px 0px #2c3e50;
+    -webkit-box-shadow: 1px 2px 2px 0px #2c3e50;
+    background-color: #ecf0f1;
+    cursor: pointer;
+    position: absolute;
+    z-index: 10;
+}
+.DefaultItemsContainerHidden{
+    float: inherit;
+    max-width: 128px;
+    min-width: 128px;
+    width: auto;
+    height: 0px;
+    overflow-x: hidden;
+    background-color: #bdc3c7;
+    margin-top: 32px;
+}
+.DefaultItemsContainer{
+    float: inherit;
+    max-width: 128px;
+    min-width: 128px;
+    width: auto;
+    height: auto;
+    overflow-x: hidden;
+    background-color: #bdc3c7;
+    margin-top: 32px;
+    box-shadow: 1px 1px 2px 0px #2c3e50;
+    -moz-box-shadow: 1px 1px 2px 0px #2c3e50;
+    -webkit-box-shadow: 1px 1px 2px 0px #2c3e50;
+    transition-duration: 500ms;
+    -moz-transition-duration: 500ms;
+    -webkit-transition-duration: 500ms;
+}
+.DefaultSingle{
+    float: inherit;
+    max-width: 128px;
+    min-width: 128px;
+    width: auto;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    line-height: 22px;
+    text-align: center;
+    cursor: pointer;
+ }
+.DefaultSingle:hover{
+    background-color: #FFFFFF;
+}
+.DefaultSearchContainer{
+    float: inherit;
+    max-width: 128px;
+    min-width: 128px;
+    width: auto;
+    height: 32px;
+    background-color: #FFFFFF;
+    box-shadow: 1px 2px 2px 0px #2c3e50;
+    -moz-box-shadow: 1px 2px 2px 0px #2c3e50;
+    -webkit-box-shadow: 1px 2px 2px 0px #2c3e50;
+    position: relative;
+    z-index: 9;
+}
+.DefaultSearch{
+    float: inherit;
+    max-width: 120px;
+    min-width: 120px;
+    width: auto;
+    border: none;
+    height: 28px;
+    margin-top: 2px;
+    margin-left: 4px;
+    outline: none;
+}
+.DefaultNoResult{
+    float: inherit;
+    max-width: 128px;
+    min-width: 128px;
+    width: auto;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    line-height: 22px;
+    text-align: center;
+    cursor: pointer;
+}
